@@ -1,0 +1,9 @@
+D:\Clean Architecture\CleanDoetArchitecture\IOC\bin\Debug\netstandard2.0\IOC.deps.json
+D:\Clean Architecture\CleanDoetArchitecture\IOC\bin\Debug\netstandard2.0\IOC.dll
+D:\Clean Architecture\CleanDoetArchitecture\IOC\bin\Debug\netstandard2.0\IOC.pdb
+D:\Clean Architecture\CleanDoetArchitecture\IOC\obj\Debug\netstandard2.0\IOC.csprojAssemblyReference.cache
+D:\Clean Architecture\CleanDoetArchitecture\IOC\obj\Debug\netstandard2.0\IOC.csproj.CoreCompileInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\IOC\obj\Debug\netstandard2.0\IOC.AssemblyInfoInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\IOC\obj\Debug\netstandard2.0\IOC.AssemblyInfo.cs
+D:\Clean Architecture\CleanDoetArchitecture\IOC\obj\Debug\netstandard2.0\IOC.dll
+D:\Clean Architecture\CleanDoetArchitecture\IOC\obj\Debug\netstandard2.0\IOC.pdb

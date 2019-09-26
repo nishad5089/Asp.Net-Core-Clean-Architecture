@@ -1,0 +1,12 @@
+D:\Clean Architecture\CleanDoetArchitecture\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+D:\Clean Architecture\CleanDoetArchitecture\Domain\bin\Debug\netstandard2.0\Domain.dll
+D:\Clean Architecture\CleanDoetArchitecture\Domain\bin\Debug\netstandard2.0\Domain.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Domain\bin\Debug\netstandard2.0\Common.dll
+D:\Clean Architecture\CleanDoetArchitecture\Domain\bin\Debug\netstandard2.0\Common.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\Clean Architecture\CleanDoetArchitecture\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\Clean Architecture\CleanDoetArchitecture\Domain\obj\Debug\netstandard2.0\Domain.csproj.CopyComplete
+D:\Clean Architecture\CleanDoetArchitecture\Domain\obj\Debug\netstandard2.0\Domain.dll
+D:\Clean Architecture\CleanDoetArchitecture\Domain\obj\Debug\netstandard2.0\Domain.pdb

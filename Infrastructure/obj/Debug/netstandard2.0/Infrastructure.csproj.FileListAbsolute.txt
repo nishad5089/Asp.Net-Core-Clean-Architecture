@@ -1,0 +1,16 @@
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Application.dll
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Common.dll
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Domain.dll
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Application.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Common.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\bin\Debug\netstandard2.0\Domain.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+D:\Clean Architecture\CleanDoetArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb

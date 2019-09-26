@@ -1,0 +1,16 @@
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Persistence.dll
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Application.dll
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Common.dll
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Domain.dll
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Application.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Common.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\bin\Debug\netstandard2.0\Domain.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\obj\Debug\netstandard2.0\Persistence.dll
+D:\Clean Architecture\CleanDoetArchitecture\Persistence\obj\Debug\netstandard2.0\Persistence.pdb

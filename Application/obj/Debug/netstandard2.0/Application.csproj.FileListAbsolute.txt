@@ -1,0 +1,14 @@
+D:\Clean Architecture\CleanDoetArchitecture\Application\bin\Debug\netstandard2.0\Application.deps.json
+D:\Clean Architecture\CleanDoetArchitecture\Application\bin\Debug\netstandard2.0\Application.dll
+D:\Clean Architecture\CleanDoetArchitecture\Application\bin\Debug\netstandard2.0\Application.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Application\bin\Debug\netstandard2.0\Common.dll
+D:\Clean Architecture\CleanDoetArchitecture\Application\bin\Debug\netstandard2.0\Domain.dll
+D:\Clean Architecture\CleanDoetArchitecture\Application\bin\Debug\netstandard2.0\Common.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Application\bin\Debug\netstandard2.0\Domain.pdb
+D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
+D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.dll
+D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.pdb
