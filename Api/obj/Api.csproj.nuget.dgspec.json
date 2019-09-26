@@ -380,14 +380,21 @@
           "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj"
+              },
+              "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -397,11 +404,15 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[4.4.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
@@ -411,10 +422,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -455,6 +466,9 @@
               },
               "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj": {
                 "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj"
+              },
+              "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -474,7 +488,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.3, )"
+              "version": "[2.2.6, )"
             },
             "Microsoft.Extensions.Configuration.EnvironmentVariables": {
               "target": "Package",

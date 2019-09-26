@@ -26,6 +26,8 @@ namespace Infrastructure
 
             // services.Configure<JwtSettings> (configuration.GetSection ("JwtSettings"));
             // services.Configure<JwtSettings>(configuration.GetSection("ConfigurationManager"));
+
+
             var jwtSettings = new JwtSettings();
             configuration.Bind(nameof(jwtSettings), jwtSettings);
             services.AddSingleton(jwtSettings);

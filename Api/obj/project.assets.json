@@ -4672,11 +4672,14 @@
       },
       "IOC/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "4.4.0",
+          "Infrastructure": "1.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Persistence": "1.0.0"
         },
         "compile": {
           "bin/placeholder/IOC.dll": {}
@@ -4691,8 +4694,9 @@
         "dependencies": {
           "Application": "1.0.0",
           "Common": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "2.2.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0"
