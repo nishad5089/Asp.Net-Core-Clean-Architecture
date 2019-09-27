@@ -1,4 +1,5 @@
-# Asp.Net-Core-Clean-Architecture This is a clean architecture developed for Enterprise Application. Here i used Mediator and CQRS pattern for getting flavour of Event Driven Architecture though it is not fully implemented.
+# Asp.Net-Core-Clean-Architecture 
+This is a clean architecture developed for Enterprise Application. Here i used Mediator and CQRS pattern for getting flavour of Event Driven Architecture though it is not fully implemented.
 
 # Technology Used 
 1. Asp.Net Core 2.2 and Entity FrameworkCore 
@@ -13,7 +14,7 @@
 1. First Clone Repository 
 2. Open in VSCode or Visual Studio 
 3. Change directory to Api project 
-4. In CMD type dotnet run or dotnet watch run 
+4. Open CMD type dotnet run or dotnet watch run 
 5. Browse http://localhost:5000/swagger/index.html 
 
 # Reference 
