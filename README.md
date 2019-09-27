@@ -14,7 +14,7 @@ This is a clean architecture developed for Enterprise Application. Here i used M
 1. First Clone Repository 
 2. Open in VSCode or Visual Studio 
 3. Change directory to Api project 
-4. Open CMD type dotnet run or dotnet watch run 
+4. Open CMD and type dotnet run or dotnet watch run 
 5. Browse http://localhost:5000/swagger/index.html 
 
 # Reference 
