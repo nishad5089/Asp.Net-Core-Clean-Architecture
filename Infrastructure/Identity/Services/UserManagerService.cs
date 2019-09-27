@@ -1,14 +1,10 @@
 using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
-using System.Security.Claims;
-using System.Text;
 using System.Threading.Tasks;
 using Application.Interfaces;
 using Application.Viewmodels;
-using Infrastructure.Auth.JWT;
-using Infrastructure.Identity.Entity;
+using Domain.Entities.Auth;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -17,17 +13,15 @@ namespace Infrastructure.Identity.Services {
     public class UserManagerService : IUserManager {
 
         private readonly UserManager<ApplicationUser> _userManager;
-        //   private readonly JwtSettings _jwtSettings;
-        //  private readonly TokenValidationParameters _tokenValidationParameters;
+
+    
         private readonly ApplicationDbContext _context;
         //   private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IJwtFactory _jwtFactory;
 
-        public UserManagerService (UserManager<ApplicationUser> userManager, JwtSettings jwtSettings, TokenValidationParameters tokenValidationParameters, ApplicationDbContext context, RoleManager<IdentityRole> roleManager, IJwtFactory jwtFactory) {
+        public UserManagerService (UserManager<ApplicationUser> userManager, ApplicationDbContext context, RoleManager<IdentityRole> roleManager, IJwtFactory jwtFactory) {
             _jwtFactory = jwtFactory;
             _userManager = userManager;
-            // _jwtSettings = jwtSettings;
-            // _tokenValidationParameters = tokenValidationParameters;
             _context = context;
             // _roleManager = roleManager;
         }
@@ -121,8 +115,6 @@ namespace Infrastructure.Identity.Services {
             var user = await _userManager.FindByIdAsync (validatedToken.Claims.Single (x => x.Type == "id").Value);
             return await _jwtFactory.GenerateAuthenticationResultForUserAsync (user);
         }
-
-                       
 
     }
 }

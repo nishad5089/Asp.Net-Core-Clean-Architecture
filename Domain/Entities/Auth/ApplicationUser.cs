@@ -2,7 +2,7 @@
 using Domain.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 
-namespace Infrastructure.Identity.Entity
+namespace Domain.Entities.Auth
 {
     // Add profile data for application users by adding properties to this class
     public class ApplicationUser : IdentityUser

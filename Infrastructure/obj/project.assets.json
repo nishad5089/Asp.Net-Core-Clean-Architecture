@@ -3321,6 +3321,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Common": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
           "System.ComponentModel.Annotations": "4.5.0"
         },
         "compile": {

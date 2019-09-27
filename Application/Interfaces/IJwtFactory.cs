@@ -1,9 +1,9 @@
 ﻿using System.Security.Claims;
 using System.Threading.Tasks;
 using Application.Viewmodels;
-using Infrastructure.Identity.Entity;
+using Domain.Entities.Auth;
 
-namespace Infrastructure.Auth.JWT {
+namespace Application.Interfaces {
     public interface IJwtFactory {
         Task<AuthenticationResult> GenerateAuthenticationResultForUserAsync (ApplicationUser user);
         ClaimsPrincipal GetPrincipalFromToken (string token);

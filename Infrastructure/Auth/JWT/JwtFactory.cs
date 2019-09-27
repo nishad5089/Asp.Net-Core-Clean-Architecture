@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
+
 using System.Security.Claims;
-using System.Security.Principal;
+
 using System.Text;
 using System.Threading.Tasks;
+using Application.Interfaces;
 using Application.Viewmodels;
+using Domain.Entities.Auth;
 using Infrastructure.Identity;
-using Infrastructure.Identity.Entity;
+
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Options;
+
 using Microsoft.IdentityModel.Tokens;
 
 namespace Infrastructure.Auth.JWT {
@@ -76,20 +78,7 @@ namespace Infrastructure.Auth.JWT {
                     RefreshToken = refreshToken.Token
             };
         }
-        // private ClaimsPrincipal GetPrincipalFromToken (string token) {
-        //     var tokenHandler = new JwtSecurityTokenHandler ();
-
-        //     try {
-        //         var principal = tokenHandler.ValidateToken (token, _tokenValidationParameters, out var validatedToken);
-        //         if (!IsJwtWithValidSecurityAlgorithm (validatedToken)) {
-        //             return null;
-        //         }
-
-        //         return principal;
-        //     } catch {
-        //         return null;
-        //     }
-        // }
+       
         private bool IsJwtWithValidSecurityAlgorithm (SecurityToken validatedToken) {
             return (validatedToken is JwtSecurityToken jwtSecurityToken) &&
                 jwtSecurityToken.Header.Alg.Equals (SecurityAlgorithms.HmacSha256,
@@ -114,5 +103,7 @@ namespace Infrastructure.Auth.JWT {
                 return null;
             }
         }
+
+     
     }
 }
