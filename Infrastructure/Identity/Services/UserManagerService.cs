@@ -150,6 +150,7 @@ namespace Infrastructure.Identity.Services
             var claims = new List<Claim> {
                 new Claim (JwtRegisteredClaimNames.Sub, user.Email),
                 new Claim (JwtRegisteredClaimNames.Jti, Guid.NewGuid ().ToString ()),
+                new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64),
                 new Claim (JwtRegisteredClaimNames.Email, user.Email),
                 new Claim ("id", user.Id)
             };
@@ -193,6 +194,7 @@ namespace Infrastructure.Identity.Services
             {
                 Success = true,
                 Token = tokenHandler.WriteToken(token),
+                ExpiresIn = tokenDescriptor.Expires.Value.Second,
                 RefreshToken = refreshToken.Token
             };
         }
@@ -222,6 +224,11 @@ namespace Infrastructure.Identity.Services
                 jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256,
                     StringComparison.InvariantCultureIgnoreCase);
         }
+
+        private static long ToUnixEpochDate(DateTime date)
+      => (long)Math.Round((date.ToUniversalTime() -
+                           new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero))
+                          .TotalSeconds);
 
     }
 }

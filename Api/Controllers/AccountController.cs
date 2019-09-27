@@ -16,7 +16,7 @@ namespace Api.Controllers
         {
             _userManager = userManager;
         }
-        [HttpPost]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register(RegisterUserRequest request)
         {
             var authResponse = await _userManager.RegisterAsync(request.Email, request.Password);
@@ -30,7 +30,29 @@ namespace Api.Controllers
             var response = new AuthSuccessResponse
             {
                 Token = authResponse.Token,
-                RefreshToken = authResponse.RefreshToken
+                RefreshToken = authResponse.RefreshToken,
+                ExpiresIn = authResponse.ExpiresIn
+            };
+            return Ok(new AuthResponse<AuthSuccessResponse>(response));
+
+        }
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(UserLoginRequest request)
+        {
+            var authResponse = await _userManager.LoginAsync(request.Email, request.Password);
+            if (!authResponse.Success)
+            {
+                return BadRequest(new AuthFailedResponse
+                {
+                    Errors = authResponse.Errors
+                });
+            }
+
+            var response = new AuthSuccessResponse
+            {
+                Token = authResponse.Token,
+                RefreshToken = authResponse.RefreshToken,
+                ExpiresIn = authResponse.ExpiresIn
             };
             return Ok(new AuthResponse<AuthSuccessResponse>(response));
 
