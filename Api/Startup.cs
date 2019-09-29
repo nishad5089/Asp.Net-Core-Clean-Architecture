@@ -27,13 +27,15 @@ namespace Api
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
 
             // IOC 
             services.Dependency(Configuration);
             // Installer
             services.InstallServicesInAssembly(Configuration);
+            // AutoFac DI
+            return RegisterServices(services);
 
         }
 
@@ -65,6 +67,10 @@ namespace Api
                 option.InjectStylesheet("/swagger/custom.css");
             });
             app.UseMvc();
+        }
+        private static IServiceProvider RegisterServices(IServiceCollection services)
+        {
+            return AutofacDependencyContainer.RegisterServices(services);
         }
     }
 }
