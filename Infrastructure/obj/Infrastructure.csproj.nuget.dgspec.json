@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "autofac": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             }
           },
           "imports": [
@@ -276,6 +280,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "autofac": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             }
           },
           "imports": [

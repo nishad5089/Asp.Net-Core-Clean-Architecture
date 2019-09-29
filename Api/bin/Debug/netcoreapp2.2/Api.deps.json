@@ -480,7 +480,8 @@
           "FluentValidation": "8.1.3",
           "MediatR": "6.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Autofac": "4.9.1"
         },
         "runtime": {
           "Application.dll": {}
@@ -522,7 +523,8 @@
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0"
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
+          "Autofac": "4.9.1"
         },
         "runtime": {
           "Infrastructure.dll": {}
@@ -556,7 +558,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0"
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
+          "Autofac": "4.9.1"
         },
         "runtime": {
           "Persistence.dll": {}
