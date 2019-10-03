@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\api\\Api.csproj": {}
+    "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\api\\Api.csproj": {
+    "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\api\\Api.csproj",
+        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\api\\Api.csproj",
+        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\api\\obj\\",
+        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

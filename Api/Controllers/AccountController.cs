@@ -57,5 +57,27 @@ namespace Api.Controllers
             return Ok(new AuthResponse<AuthSuccessResponse>(response));
 
         }
+        [HttpPost("Refresh")]
+        public async Task<IActionResult> Refresh(RefreshTokenRequest request)
+        {
+            var authResponse = await _userManager.RefreshTokenAsync(request.Token, request.RefreshToken);
+
+            if (!authResponse.Success)
+            {
+                return BadRequest(new AuthFailedResponse
+                {
+                    Errors = authResponse.Errors
+                });
+            }
+
+
+            var response = new AuthSuccessResponse
+            {
+                Token = authResponse.Token,
+                RefreshToken = authResponse.RefreshToken,
+                ExpiresIn = authResponse.ExpiresIn
+            };
+            return Ok(new AuthResponse<AuthSuccessResponse>(response));
+        }
     }
 }
