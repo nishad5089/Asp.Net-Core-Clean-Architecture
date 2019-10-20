@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj": {}
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj": {
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj",
+        "projectUniqueName": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Api\\obj\\",
+        "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -28,17 +28,17 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\IOC\\IOC.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\IOC\\IOC.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\IOC\\IOC.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\IOC\\IOC.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -87,27 +87,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\Application.csproj": {
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\obj\\",
+        "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -118,11 +124,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Domain\\Domain.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Domain\\Domain.csproj"
               }
             }
           }
@@ -138,7 +144,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -172,27 +182,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj": {
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\obj\\",
+        "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -222,27 +238,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\Domain\\Domain.csproj": {
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Domain\\obj\\",
+        "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -253,8 +275,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj"
               }
             }
           }
@@ -284,27 +306,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -315,11 +343,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\Application.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\Application.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\Application.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\Application.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj"
               }
             }
           }
@@ -381,27 +409,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\IOC\\IOC.csproj": {
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\IOC\\IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\IOC\\IOC.csproj",
+        "projectUniqueName": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\IOC\\IOC.csproj",
         "projectName": "IOC",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\IOC\\IOC.csproj",
-        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\IOC\\obj\\",
+        "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\IOC\\IOC.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -412,11 +446,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -454,27 +488,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj": {
+    "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Persistence\\obj\\",
+        "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -485,14 +525,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\Application.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Application\\Application.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\Application.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Application\\Application.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Common\\Common.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Common\\Common.csproj"
               },
-              "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Clean Architecture\\CleanDoetArchitecture\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Web Applications\\Monolethic\\Asp.Net-Core-Clean-Architecture\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -538,10 +578,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

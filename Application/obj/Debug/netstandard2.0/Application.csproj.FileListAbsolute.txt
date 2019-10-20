@@ -12,3 +12,16 @@ D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0
 D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
 D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.dll
 D:\Clean Architecture\CleanDoetArchitecture\Application\obj\Debug\netstandard2.0\Application.pdb
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\obj\Debug\netstandard2.0\Application.dll
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\obj\Debug\netstandard2.0\Application.pdb
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\bin\Debug\netstandard2.0\Application.deps.json
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\bin\Debug\netstandard2.0\Application.dll
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\bin\Debug\netstandard2.0\Application.pdb
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\bin\Debug\netstandard2.0\Common.dll
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\bin\Debug\netstandard2.0\Domain.dll
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\bin\Debug\netstandard2.0\Common.pdb
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\bin\Debug\netstandard2.0\Domain.pdb
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete

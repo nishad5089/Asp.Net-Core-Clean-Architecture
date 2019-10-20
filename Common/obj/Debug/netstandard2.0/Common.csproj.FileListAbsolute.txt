@@ -7,3 +7,11 @@ D:\Clean Architecture\CleanDoetArchitecture\Common\obj\Debug\netstandard2.0\Comm
 D:\Clean Architecture\CleanDoetArchitecture\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
 D:\Clean Architecture\CleanDoetArchitecture\Common\obj\Debug\netstandard2.0\Common.dll
 D:\Clean Architecture\CleanDoetArchitecture\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\bin\Debug\netstandard2.0\Common.dll
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\obj\Debug\netstandard2.0\Common.dll
+D:\Web Applications\Monolethic\Asp.Net-Core-Clean-Architecture\Common\obj\Debug\netstandard2.0\Common.pdb
