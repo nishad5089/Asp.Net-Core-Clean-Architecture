@@ -18,6 +18,5 @@ This is a clean architecture developed for Enterprise Application. Here i used M
 5. Browse http://localhost:5000/swagger/index.html 
 
 # Reference 
-1. https://github.com/JasonGT/NorthwindTraders 
-2. https://github.com/mmacneil/CleanAspNetCoreWebApi 
-3. https://fullstackmark.com/post/18/building-aspnet-core-web-apis-with-clean-architecture
+1. https://github.com/mmacneil/CleanAspNetCoreWebApi 
+2. https://fullstackmark.com/post/18/building-aspnet-core-web-apis-with-clean-architecture
